@@ -1,0 +1,29 @@
+[build-systems]
+requires=["setuptools>=68","wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name="tzxc"
+version="1.0.0"
+description="a module for stopping processes in programs. Learn more in README.md"
+readme="README.md"
+requires-python="=>3.8"
+license={ text: "MIT"}
+authors=[{ name: "13"}]
+
+classifiers = [
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+
+[project.urls]
+Repository = ""
+
+[tool.setuptools]
+packages=["tzxc"]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
