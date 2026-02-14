@@ -19,7 +19,7 @@ classifiers = [
 ]
 
 [project.urls]
-Repository = ""
+Repository = "https://github.com/ifuckingjoke/tzxc"
 
 [tool.setuptools]
 packages=["tzxc"]
